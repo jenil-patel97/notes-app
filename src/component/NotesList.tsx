@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const NotesList = () => {
+type Props = {};
+
+const NotesList = (props: Props) => {
   return (
-    <div>NotesList</div>
-  )
-}
+    <>
+      <h2 className="mt-3">Notes</h2>
+    </>
+  );
+};
 
-export default NotesList
+export default NotesList;
