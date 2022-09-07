@@ -12,7 +12,7 @@ function App() {
       id: new Date().toString(),
       title: "Learning",
       text: "Learning new skill that is typeScript.",
-      color: "dfdfdf",
+      color: "#E0E0E0",
       date: new Date().toString(),
     },
   ]);
@@ -23,7 +23,7 @@ function App() {
       <Container className="mt-5">
         <Row>
           <Col>
-            <NotesList notes={ notes } />
+            <NotesList notes={notes} />
           </Col>
         </Row>
       </Container>
